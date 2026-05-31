@@ -6,6 +6,7 @@
 
 /data/events.json
 
+ex.
 ```json
 {
   "id": "2026-suneung",
