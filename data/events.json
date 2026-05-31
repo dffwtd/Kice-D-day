@@ -1,0 +1,65 @@
+[
+  {
+    "id": "2026-march-mock",
+    "year": 2026,
+    "type": "3모",
+    "name": "3월 고3 전국연합학력평가",
+    "date": "2026-03-24",
+    "organizer": "서울특별시교육청",
+    "active": true
+  },
+  {
+    "id": "2026-may-mock",
+    "year": 2026,
+    "type": "5모",
+    "name": "5월 고3 전국연합학력평가",
+    "date": "2026-05-07",
+    "organizer": "경기도교육청",
+    "active": true
+  },
+  {
+    "id": "2026-june-mock",
+    "year": 2026,
+    "type": "6모",
+    "name": "2027학년도 6월 모의평가",
+    "date": "2026-06-04",
+    "organizer": "한국교육과정평가원",
+    "active": true
+  },
+  {
+    "id": "2026-july-mock",
+    "year": 2026,
+    "type": "7모",
+    "name": "7월 고3 전국연합학력평가",
+    "date": "2026-07-08",
+    "organizer": "인천광역시교육청",
+    "active": true
+  },
+  {
+    "id": "2026-september-mock",
+    "year": 2026,
+    "type": "9모",
+    "name": "2027학년도 9월 모의평가",
+    "date": "2026-09-02",
+    "organizer": "한국교육과정평가원",
+    "active": true
+  },
+  {
+    "id": "2026-october-mock",
+    "year": 2026,
+    "type": "10모",
+    "name": "10월 고3 전국연합학력평가",
+    "date": "2026-10-20",
+    "organizer": "서울특별시교육청",
+    "active": true
+  },
+  {
+    "id": "2026-suneung",
+    "year": 2026,
+    "type": "수능",
+    "name": "2027학년도 대학수학능력시험",
+    "date": "2026-11-19",
+    "organizer": "한국교육과정평가원",
+    "active": true
+  }
+]

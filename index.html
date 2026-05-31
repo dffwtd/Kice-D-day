@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>수능 D-Day 캘린더</title>
+    <meta
+      name="description"
+      content="수능, 6월 모의고사, 9월 모의고사 등 주요 시험 일정을 보여주는 D-Day 캘린더"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="title-block">
+        <p class="eyebrow">D-Day Calendar</p>
+        <h1>수능 일정 캘린더</h1>
+      </div>
+    </header>
+
+    <main>
+      <section class="panel lead-panel">
+        <div class="section-head">
+          <div>
+            <h2>평가원 모의평가</h2>
+          </div>
+        </div>
+        <div class="cards major-cards" id="majorCards"></div>
+      </section>
+
+      <section class="panel">
+        <div class="section-head">
+          <div>
+            <h2>교육청 모의고사</h2>
+          </div>
+        </div>
+        <div class="cards compact-cards" id="otherCards"></div>
+      </section>
+    </main>
+
+    <template id="cardTemplate">
+      <article class="event-card">
+        <span class="badge"></span>
+        <h3></h3>
+        <p class="date-line"></p>
+        <p class="organizer-line"></p>
+        <strong class="dday"></strong>
+      </article>
+    </template>
+
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>
